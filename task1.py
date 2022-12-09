@@ -8,7 +8,8 @@
 # 2021 21 ---> 2000 бот4 -> 1996 .... бот --->29 --> 27 >> 2конф
 
 import random
-amount = 120
+amount = int(input('На сколько конфет сыграем:\n'))
+print(f'ok на {amount} конфет')
 count = 0
 while 0 < amount:
     if count == 0:
